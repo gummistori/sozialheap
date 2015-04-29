@@ -10,7 +10,7 @@ namespace Sozialheap.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            return View("Hvað er að frétta??");
         }
 
         public ActionResult About()
