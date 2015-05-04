@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="99ce3130294e4128989bc12294eed99f" Name="Diagram1">
+        <EntityTypeShape EntityType="VERK2015_H43Model.C__MigrationHistory" Width="1.5" PointX="7.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="VERK2015_H43Model.Answer" Width="1.5" PointX="5.25" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="VERK2015_H43Model.AspNetRole" Width="1.5" PointX="0.75" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="VERK2015_H43Model.AspNetUserClaim" Width="1.5" PointX="5.25" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="VERK2015_H43Model.AspNetUserLogin" Width="1.5" PointX="5.25" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="VERK2015_H43Model.AspNetUser" Width="1.5" PointX="3" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="VERK2015_H43Model.Group" Width="1.5" PointX="10.5" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="VERK2015_H43Model.PostCategory" Width="1.5" PointX="0.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="VERK2015_H43Model.Post" Width="1.5" PointX="3" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="VERK2015_H43Model.User" Width="1.5" PointX="8.25" PointY="3" IsExpanded="true" />
+        <AssociationConnector Association="VERK2015_H43Model.FK__Answers__postID__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="VERK2015_H43Model.FK__Answers__userID__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="VERK2015_H43Model.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_User_Id" ManuallyRouted="false" />
+        <AssociationConnector Association="VERK2015_H43Model.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="VERK2015_H43Model.FK__Groups__userID__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="VERK2015_H43Model.FK__Posts__groupID__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="VERK2015_H43Model.FK__Posts__categoryI__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="VERK2015_H43Model.FK__Posts__userID__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="VERK2015_H43Model.AspNetUserRoles" ManuallyRouted="false" />
+        <AssociationConnector Association="VERK2015_H43Model.GroupFollow" ManuallyRouted="false" />
+        <AssociationConnector Association="VERK2015_H43Model.PostLike" ManuallyRouted="false" />
+        <AssociationConnector Association="VERK2015_H43Model.UserFollow" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

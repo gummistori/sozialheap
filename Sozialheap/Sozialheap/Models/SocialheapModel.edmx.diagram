@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="591c23712f6e4503827dc7f5d9ef97bb" Name="Diagram1">
+        <EntityTypeShape EntityType="SocialheapDataModel.Answer" Width="1.5" PointX="5.25" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SocialheapDataModel.Group" Width="1.5" PointX="10.5" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SocialheapDataModel.PostCategory" Width="1.5" PointX="0.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SocialheapDataModel.Post" Width="1.5" PointX="3" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="SocialheapDataModel.User" Width="1.5" PointX="8.25" PointY="3" IsExpanded="true" />
+        <AssociationConnector Association="SocialheapDataModel.FK__Answers__postID__0EA330E9" ManuallyRouted="false" />
+        <AssociationConnector Association="SocialheapDataModel.FK__Answers__userID__0F975522" ManuallyRouted="false" />
+        <AssociationConnector Association="SocialheapDataModel.FK__Groups__userID__023D5A04" ManuallyRouted="false" />
+        <AssociationConnector Association="SocialheapDataModel.FK__Posts__groupID__0AD2A005" ManuallyRouted="false" />
+        <AssociationConnector Association="SocialheapDataModel.FK__Posts__categoryI__0BC6C43E" ManuallyRouted="false" />
+        <AssociationConnector Association="SocialheapDataModel.FK__Posts__userID__09DE7BCC" ManuallyRouted="false" />
+        <AssociationConnector Association="SocialheapDataModel.GroupFollow" ManuallyRouted="false" />
+        <AssociationConnector Association="SocialheapDataModel.PostLike" ManuallyRouted="false" />
+        <AssociationConnector Association="SocialheapDataModel.UserFollow" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

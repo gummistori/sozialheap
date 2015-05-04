@@ -9,6 +9,32 @@
 
 </head>
 <body>
+<!-- New navbar-->
+    <div class="container">
+        <div class="row" id="header">
+            <div class="col-sm-4" id="logo">
+                <h1 class="title">
+                    <span class="glyphicon glyphicon-console" aria-hidden="true"></span>
+                    SozialHeap;
+                </h1>
+            </div>
+            <div class="col-sm-3 headerExtra" id="headerSearch">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search for...">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default glyphicon glyphicon-search searchbutton" type="button"></button>
+                    </span>
+                </div>
+            </div>
+            <div class="col-sm-5 headerExtra" id="headerButtons">
+                <button class="btn" type="button" id="buttonProfile">Username <span class="badge" id="headerNotification">42</span></button>
+                <button class="btn" type="button" id="buttonGroup">Group</button>
+                @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </div> <!-- Header finish -->
+
+<!-- Old navbar
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -29,11 +55,13 @@
             </div>
         </div>
     </div>
+    -->
     <div class="container body-content">
         @RenderBody()
         <hr />
+        <!-- footer starts -->
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            <p><a href="#">&copy; SozialHeap 2015</a>, unnið af hóp 43</p>
         </footer>
     </div>
 

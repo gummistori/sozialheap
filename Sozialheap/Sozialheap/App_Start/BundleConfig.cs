@@ -25,6 +25,8 @@ namespace Sozialheap
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
+                      "~/Content/style.css",
+                      "~/Content/stylesheet.css",
                       "~/Content/site.css"));
         }
     }
